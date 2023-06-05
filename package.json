@@ -1,0 +1,24 @@
+{
+  "name": "practica-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "taildev": "npx tailwindcss -i ./src/css/tailwind.css -o ./src/css/estilos.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahuelFV/Practica-TailwindCSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahuelFV/Practica-TailwindCSS/issues"
+  },
+  "homepage": "https://github.com/NahuelFV/Practica-TailwindCSS#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
